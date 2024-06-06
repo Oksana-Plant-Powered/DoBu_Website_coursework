@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About DoBu Martial Arts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="home.js"></script>
+    <script>
+        // JavaScript to handle the close button click event
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the close button
+            var closeButton = document.querySelector(".fullscreen-article .close");
+
+            // Add click event listener to the close button
+            if (closeButton) {
+                closeButton.addEventListener("click", function () {
+                    // Hide the fullscreen article when close button is clicked
+                    document.querySelector(".fullscreen-article").style.display = "none";
+                });
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <!-- Logo and text -->
+        <a class="navbar-brand rounded-pill" href="index.html">
+            <img src="https://i.ibb.co/RpW3dk2/logo.png" alt="DoBu Martial Arts Logo" class="rounded-pill"
+                 style="width: 70px; height: auto;">
+            <span class="ml-2">DoBu Martial Arts - HOME</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="classes.html">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="instructors.html">Instructors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faqs.html">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="myaccount.html">My Account</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero blog-hero">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BxCtktzNEP0?si=Ne1B_k_FVUO8v-WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="hero-content">
+            <h1 class="display-4">DoBu Martial Arts Gym - Our Blog</h1>
+        </div>
+    </section>
+
+    <!-- Blog Articles Section -->
+    <section class="blog-articles">
+        <div class="container">
+            <div class="article-card" onclick="expandArticle(this)">
+                <img src="https://media.istockphoto.com/id/864654586/photo/reaching-out.jpg?s=2048x2048&w=is&k=20&c=n6soUo9TnmkCmvRVkWjh4GWaBxLaDybLLgRhscEnX8c=" alt="Article Image">
+                <div class="card-body">
+                    <h3>The Benefits of Martial Arts Training for All Ages</h3>
+                    <p class="preview">
+                        Martial arts training offers numerous physical and mental benefits for individuals
+                        of all ages. Whether you are a child, a teenager, an adult, or a senior, martial arts can
+                        provide a comprehensive workout that improves strength, flexibility, and endurance, while also
+                        promoting mental discipline and emotional well-being....
+                    </p>
+                    <p class="full-article">
+                        Martial arts training offers numerous physical and mental benefits for
+                        individuals of all ages. Whether you are a child, a teenager, an adult, or a senior, martial
+                        arts can provide a comprehensive workout that improves strength, flexibility, and endurance,
+                        while also promoting mental discipline and emotional well-being. One of the most obvious
+                        benefits of martial arts is the physical conditioning it provides. Martial arts training
+                        involves a combination of cardio, strength training, and flexibility exercises that can help
+                        practitioners maintain a healthy weight, improve muscle tone, and increase cardiovascular
+                        health. Additionally, the repetitive nature of martial arts techniques can enhance
+                        coordination and balance. Martial arts is not just about physical strength; it also emphasizes
+                        mental discipline. Practitioners learn to focus their mind, develop patience, and build
+                        resilience. The practice of setting and achieving goals, such as advancing through belt ranks,
+                        teaches valuable life skills that can be applied outside the dojo. Martial arts can also have
+                        a positive impact on emotional health. It provides a healthy outlet for stress and aggression,
+                        promoting a sense of calm and relaxation. The supportive community environment found in many
+                        martial arts schools fosters a sense of belonging and can help boost self-esteem and
+                        confidence. Overall, martial arts training is a holistic approach to improving physical
+                        health, mental discipline, and emotional well-being. At DoBu Martial Arts Gym, we offer
+                        classes for all age groups and skill levels, ensuring that everyone can experience the
+                        transformative power of martial arts.
+                    </p>
+                </div>
+            </div>
+            <div class="article-card" onclick="expandArticle(this)">
+                <img src="https://media.istockphoto.com/id/1727828720/photo/young-man-professional-karateka-in-white-kimono-training-karate-on-abstract-background.jpg?s=2048x2048&w=is&k=20&c=M0ZDySLycYNiiaWyGj8-O73sicZNJMs3K3Jx8RbQuH4=" alt="Article Image">
+                <div class="card-body">
+                    <h3>Exploring Different Martial Arts Styles at DoBu Martial Arts Gym</h3>
+                    <p class="preview">
+                        At DoBu Martial Arts Gym, we offer a variety of martial arts styles to cater to the diverse interests and goals of our students. From striking arts to grappling styles, each discipline offers unique techniques and benefits. In this article, we will explore some of the popular martial arts styles available at our gym.
+                    </p>
+                    <p class="full-article">
+                        Jiu-Jitsu
+
+                        Jiu-Jitsu focuses on ground fighting and submission techniques. It emphasizes leverage and technique over brute strength, making it an effective self-defense method for people of all sizes. Practitioners learn to control and submit opponents using joint locks and chokeholds.
+
+                        Karate
+
+                        Karate is a striking art that involves punches, kicks, and knee strikes. It also includes open-handed techniques such as knife-hands and palm-heel strikes. Karate training develops speed, power, and precision, as well as mental discipline and respect.
+
+                        Judo
+
+                        Judo is a grappling art that emphasizes throws and takedowns. The objective is to take the opponent to the ground and immobilize them with pins, joint locks, or strangles. Judo training improves balance, coordination, and physical conditioning, while also teaching important principles of leverage and control.
+
+                        Muay Thai
+
+                        Muay Thai, also known as Thai boxing, is a striking art that utilizes punches, kicks, elbows, and knee strikes. It is known for its powerful and effective techniques, as well as its rigorous training regimen. Muay Thai practitioners develop excellent cardiovascular fitness, strength, and agility.
+
+                        Conclusion
+
+                        Each martial art offers unique benefits and challenges. At DoBu Martial Arts Gym, our experienced instructors are dedicated to helping you find the style that best suits your goals and interests. Whether you are looking to improve your fitness, learn self-defense, or compete in martial arts tournaments, we have a class for you.
+                    </p>
+                </div>
+            </div>
+            <div class="article-card" onclick="expandArticle(this)">
+                <img src="https://plus.unsplash.com/premium_photo-1711989223540-58c214255e2c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Article Image">
+                <div class="card-body">
+                    <h3>The Importance of Self-Defense Training</h3>
+                    <p class="preview">
+                        In today's world, knowing how to protect yourself is more important than ever. Self-defense training equips individuals with the skills and confidence needed to handle potentially dangerous situations. At DoBu Martial Arts Gym, we offer comprehensive self-defense classes that teach practical techniques and strategies for staying safe.
+                    </p>
+                    <p class="full-article">
+                        Situational Awareness
+
+                        One of the key components of self-defense training is situational awareness. This involves being aware of your surroundings and recognizing potential threats before they escalate. Our instructors teach students how to identify and avoid dangerous situations, as well as how to use verbal and non-verbal communication to de-escalate conflicts.
+
+                        Physical Techniques
+
+                        Self-defense training also includes learning physical techniques to protect yourself. This can range from basic strikes and kicks to more advanced joint locks and escapes. At DoBu Martial Arts Gym, our self-defense classes focus on practical techniques that are easy to learn and effective in real-world scenarios.
+
+                        Mental Preparedness
+
+                        In addition to physical skills, self-defense training also involves mental preparedness. This means staying calm and composed under pressure, and having the confidence to take decisive action when needed. Our instructors help students develop a strong mindset and the ability to think clearly in stressful situations.
+
+                        Conclusion
+
+                        Self-defense training is an essential skill that can help you feel more secure and confident in your daily life. At DoBu Martial Arts Gym, our experienced instructors are committed to providing high-quality self-defense training that is both practical and empowering. Join us today and take the first step towards a safer future.
+                    </p>
+                </div>
+            </div>
+            <div class="article-card" onclick="expandArticle(this)">
+                <img src="https://media.istockphoto.com/id/1569958442/photo/mature-man-practicing-karate-taekwondo-movements-at-public-park.jpg?s=2048x2048&w=is&k=20&c=piIApynVnfJ9PCedzyu6CJvxPjf0CHvyoQzgXFYSM8I=" alt="Article Image">
+                <div class="card-body">
+                    <h3>How Martial Arts Can Improve Your Mental Health</h3>
+                    <p class="preview">
+                        While martial arts is often associated with physical fitness, it also offers significant mental health benefits. Training in martial arts can help reduce stress, improve focus, and boost overall well-being. At DoBu Martial Arts Gym, we believe in the holistic benefits of martial arts and strive to promote mental as well as physical health among our students.
+                    </p>
+                    <p class="full-article">
+                        Stress Relief
+
+                        One of the primary mental health benefits of martial arts is stress relief. Physical activity, such as martial arts training, releases endorphins, which are natural mood lifters. Additionally, the practice of focusing on techniques and forms can provide a mental break from daily stressors, allowing practitioners to return to their routines with a clearer mind.
+
+                        Improved Focus and Concentration
+
+                        Martial arts training requires a high level of focus and concentration. Practitioners must pay close attention to their movements, as well as those of their training partners. This practice of mindfulness can help improve overall concentration and attention to detail, both in and out of the dojo.
+
+                        Boosted Confidence and Self-Esteem
+
+                        Achieving goals in martial arts, such as earning a new belt or mastering a new technique, can significantly boost confidence and self-esteem. The supportive environment of a martial arts gym also fosters a sense of community and belonging, which can be beneficial for mental health.
+
+                        Conclusion
+
+                        The mental health benefits of martial arts are just as important as the physical benefits. At DoBu Martial Arts Gym, we are dedicated to helping our students achieve a balanced and healthy lifestyle through comprehensive martial arts training. Join us and experience the positive impact of martial arts on your mental health.
+</div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Fullscreen Article Modal -->
+    
+    <div class="fullscreen-article" id="fullscreen-article">
+        <div class="article-content">
+            <span class="close" onclick="closeArticle()">&times;</span> <!-- Close button -->
+            <img id="fullscreen-article-image" src="" alt="Article Image">
+            <h3 id="fullscreen-article-title"></h3>
+            <p id="fullscreen-article-body"></p>
+        </div>
+    </div>
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="social-media">
+                <a href="https://www.instagram.com" target="_blank" class="social-link">
+                    <img src="images/socials/instagram.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="social-link">
+                    <img src="images/socials/facebook.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://www.tiktok.com" target="_blank" class="social-link">
+                    <img src="images/socials/tiktok.png" alt="TikTok" class="social-icon">
+                </a>
+                <a href="https://www.youtube.com" target="_blank" class="social-link">
+                    <img src="images/socials/youtube.png" alt="YouTube" class="social-icon">
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-link">
+                    <img src="images/socials/twitter.png" alt="Twitter" class="social-icon">
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank" class="social-link">
+                    <img src="images/socials/whatsapp.png" alt="WhatsApp" class="social-icon">
+                </a>
+            </div>
+            <p>&copy; 2024 DoBu Martial Arts. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!--Burger menu-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
